@@ -18,11 +18,6 @@ import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
 import {
   About,
   ContactSection,
@@ -95,14 +90,13 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
   description: `I am a passionate and determined student with a deep love for learning and technology. My journey in software development has given me a solid foundation in JavaScript, Python, and C++, and I thrive on expanding my skills to solve complex problems and build innovative solutions.
 Beyond coding, I'm an avid sports enthusiast, especially volleyball, and I find joy in staying active and challenging myself. When it's time to unwind, I enjoy relaxing with music, allowing myself to recharge and stay inspired.
 Whether it's tackling a new project or diving into the latest tech trends, I am committed to continuous growth and excited to contribute to meaningful projects.`,
   aboutItems: [
     {label: 'Location', text: 'New Cross, LDN', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Vincentian', Icon: FlagIcon},
+    {label: 'Nationality', text: 'Vincentian, Saint Vincent and the Grenadines, VC', Icon: FlagIcon},
     {label: 'Interests', text: 'Volleyball, Football, Music', Icon: SparklesIcon},
     {label: 'Study', text: 'Goldsmiths University', Icon: AcademicCapIcon},
     {label: 'Occupation', text: 'Student', Icon: BuildingOffice2Icon},
@@ -164,70 +158,47 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Goldsmiths auto-submit form ',
+    description:
+      'When I transferred to Goldsmiths, I encountered an issue with their Seats app, which students use to mark their attendance. To solve this, I quickly developed a script using Selenium that automatically fills out the attendance form based on the day and time of my class.',
+    url: 'https://github.com/shno784/Goldsmiths-auto-submit-form',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: "Analysis on Manchester City's triumphant 2022/23 EPL season title run",
+    description: 'A datascience project that utilised certain ML models and datascience methods to visualise and explain key factors into Manchester City 2022/23 EPL season title run.',
+    url: 'https://github.com/shno784/PWD',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Graphics Programming',
+    description: 'My graphics programming module where I learned a lot using p5.js',
+    url: 'https://github.com/shno784/Graphics-Programming',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Blog website',
+    description: 'A blog website that was created for a midterm project',
+    url: 'https://github.com/shno784/dnw-coursework-template-main',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Music Visualizer',
+    description: 'This visualizer was a project that analyses sound patterns like bass treble etc to let items be interactive with music.',
+    url: 'https://github.com/shno784/Music-Visualizer',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'DJ Application',
+    description: 'GA DJ application that was created using C++ and a framework: JUCE for Object Oriented Programming final.',
+    url: 'https://github.com/shno784/FINAL-DJ-APPLICATION',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Advisor Bot',
+    description: 'A bot that checks the current blockchain and makes predictions on certain coins.',
+    url: 'https://github.com/shno784/AdvisorBot',
     image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -274,7 +245,6 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
-
 
 /**
  * Contact section
